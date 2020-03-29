@@ -6,7 +6,7 @@ namespace OopCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("let's start coding OOP");
         }
     }
 }
