@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OopCSharp.class2;
+using System;
 
 namespace OopCSharp
 {
@@ -14,6 +15,9 @@ namespace OopCSharp
             // Partial class instance
             partialClass pClass = new partialClass();
 
+            // Constructor class instance
+            Employe employe = new Employe(20, "Agus", "Novian", "Indonesia", "Programmer");
+
             // Method
             customer.displayData(); // Customer
             
@@ -23,6 +27,8 @@ namespace OopCSharp
             pClass.method2(); // partial2
 
             StaticClass.calcute(); // static class
+
+            employe.AppendData();
 
         }
     }
