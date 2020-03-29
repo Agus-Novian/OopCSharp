@@ -22,6 +22,8 @@ namespace OopCSharp
             pClass.method1(); // partial1
             pClass.method2(); // partial2
 
+            StaticClass.calcute(); // static class
+
         }
     }
 
