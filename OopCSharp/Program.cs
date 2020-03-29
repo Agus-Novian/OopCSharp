@@ -11,10 +11,16 @@ namespace OopCSharp
 
             Aritmatic aritmatic = new Aritmatic();
 
-            // Method calling
-            customer.displayData();
+            // Partial class instance
+            partialClass pClass = new partialClass();
+
+            // Method
+            customer.displayData(); // Customer
             
-            aritmatic.Additional();
+            aritmatic.Additional(); // Aritmatic
+
+            pClass.method1(); // partial1
+            pClass.method2(); // partial2
 
         }
     }
