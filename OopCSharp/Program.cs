@@ -28,6 +28,11 @@ namespace OopCSharp
             // Encapsulation class instance
             Encapsulation encapsulation = new Encapsulation(100);
 
+            // Inheritance class instance
+            Students students = new Students();
+            // Here child object can access both class methods
+            Child child = new Child();
+
             // Method
             customer.displayData(); // Customer
             
@@ -52,6 +57,11 @@ namespace OopCSharp
 
             // Encapsulation
             encapsulation.MySquere();
+
+            // Students
+            students.StudentMethod();
+            child.StudentMethod();
+            child.ChildMethod();
 
         }
     }

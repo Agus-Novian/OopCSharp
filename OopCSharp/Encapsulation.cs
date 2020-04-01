@@ -25,7 +25,7 @@ namespace OopCSharp
         public void MySquere()
         {
             int Calc = x * x;
-            Console.WriteLine("\nEncapsulation\n" + Calc);
+            Console.WriteLine("\nEncapsulation\n" + Calc + "\n");
         }
 
         // End of encapsulation
