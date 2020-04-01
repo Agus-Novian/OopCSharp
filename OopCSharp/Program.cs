@@ -18,6 +18,9 @@ namespace OopCSharp
             // Constructor class instance
             Employe employe = new Employe(20, "Agus", "Novian", "Indonesia", "Programmer");
 
+            // Destructor class instance
+            EmployeDestructors employeDestructors = new EmployeDestructors();
+
             // Method
             customer.displayData(); // Customer
             
@@ -28,8 +31,12 @@ namespace OopCSharp
 
             StaticClass.calcute(); // static class
 
+            // Constructor
             employe.AppendData(); // constructor
             Employe.getData(); // static constructor
+
+            // Destructor
+            employeDestructors.getData();
 
         }
     }
