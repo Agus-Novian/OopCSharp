@@ -28,7 +28,8 @@ namespace OopCSharp
 
             StaticClass.calcute(); // static class
 
-            employe.AppendData();
+            employe.AppendData(); // constructor
+            Employe.getData(); // static constructor
 
         }
     }
