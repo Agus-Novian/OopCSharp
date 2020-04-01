@@ -33,6 +33,9 @@ namespace OopCSharp
             // Here child object can access both class methods
             Child child = new Child();
 
+            // Inheritance class instance constructor
+            Child childConstructor = new Child();
+
             // Method
             customer.displayData(); // Customer
             
@@ -58,10 +61,16 @@ namespace OopCSharp
             // Encapsulation
             encapsulation.MySquere();
 
-            // Students
+            // Students inheritance
+            Console.WriteLine("Inheritance");
             students.StudentMethod();
             child.StudentMethod();
             child.ChildMethod();
+
+            // Student constructor
+            Console.WriteLine("Inheritance constructor");
+            childConstructor.StudentMethod();
+            childConstructor.ChildMethod();
 
         }
     }
