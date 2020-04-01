@@ -1,4 +1,5 @@
 ﻿using OopCSharp.class2;
+using OopCSharp.overloading;
 using System;
 
 namespace OopCSharp
@@ -21,6 +22,9 @@ namespace OopCSharp
             // Destructor class instance
             EmployeDestructors employeDestructors = new EmployeDestructors();
 
+            // Overloading class instance
+            funcOverloading funcOverloading = new funcOverloading();
+
             // Method
             customer.displayData(); // Customer
             
@@ -37,6 +41,11 @@ namespace OopCSharp
 
             // Destructor
             employeDestructors.getData();
+
+            // Overloading
+            funcOverloading.setName("Agus");
+            funcOverloading.setName("Agus", "Novian");
+            funcOverloading.setName("Agus", "Novian", "programming");
 
         }
     }
