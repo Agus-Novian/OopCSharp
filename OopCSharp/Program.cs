@@ -25,6 +25,9 @@ namespace OopCSharp
             // Overloading class instance
             funcOverloading funcOverloading = new funcOverloading();
 
+            // Encapsulation class instance
+            Encapsulation encapsulation = new Encapsulation(100);
+
             // Method
             customer.displayData(); // Customer
             
@@ -46,6 +49,9 @@ namespace OopCSharp
             funcOverloading.setName("\nAgus");
             funcOverloading.setName("Agus", "Novian");
             funcOverloading.setName("Agus", "Novian", "programming");
+
+            // Encapsulation
+            encapsulation.MySquere();
 
         }
     }
